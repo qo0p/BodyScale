@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BodyScale</string>
+    <string name="app_tagline">Body composition, offline and ad-free</string>
+
+    <!-- Home -->
+    <string name="home_latest">LATEST MEASUREMENT</string>
+    <string name="home_empty">No measurements yet. Connect your scale or use the calculator.</string>
+    <string name="home_connect">Connect scale</string>
+    <string name="home_calculator">Calculator</string>
+    <string name="home_chart">Chart</string>
+    <string name="home_profile">Profile</string>
+    <string name="home_recent">RECENT</string>
+    <string name="home_history_empty">Saved readings will appear here.</string>
+    <string name="history_row_fat">%1$s%% fat</string>
+    <string name="history_scale"> · scale</string>
+    <string name="history_calc"> · calculator</string>
+
+    <!-- Common -->
+    <string name="back">← Back</string>
+    <string name="unit_kg">kg</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_delete">Delete</string>
+
+    <!-- Scan -->
+    <string name="scan_title">Connect scale</string>
+    <string name="scan_scanning">Scanning…</string>
+    <string name="scan_hint">Only Chipsea/OKOK scale advertisements are listed</string>
+    <string name="scan_step_hint">Step on the scale when it is connected</string>
+    <string name="scan_bluetooth_unavailable">Bluetooth not available</string>
+    <string name="scan_bluetooth_off">Bluetooth is turned off</string>
+    <string name="scan_scanner_unavailable">BLE scanner unavailable</string>
+    <string name="scan_failed">Scan failed (%1$d)</string>
+    <string name="scan_connecting">Connecting…</string>
+    <string name="scan_connecting_to">Connecting to %1$s…</string>
+    <string name="scan_reconnecting">Reconnecting…</string>
+    <string name="scan_connected">Connected, discovering services…</string>
+    <string name="scan_disconnected">Disconnected</string>
+    <string name="scan_retrying">Connection dropped, retrying…</string>
+    <string name="scan_waiting">Waiting for the scale…</string>
+    <string name="scan_step_on">Step on the scale</string>
+    <string name="scan_no_service">This device has no supported scale service</string>
+    <string name="scan_write_failed">Write failed: %1$s</string>
+    <string name="scan_subscribe_failed">Could not subscribe: %1$s</string>
+    <string name="scan_measuring">Measuring… stand still</string>
+    <string name="scan_permission_required">Bluetooth permission is required to find the scale</string>
+    <string name="scan_broadcast_only">This scale broadcasts readings — just stand on it barefoot</string>
+    <string name="scan_scale_name">Chipsea scale</string>
+    <string name="scan_unknown">Unknown device</string>
+    <string name="scan_saved"> · saved</string>
+    <string name="scan_frame">scale frame v%1$d</string>
+    <string name="scan_encrypted">encrypted</string>
+    <string name="scan_ready">ready</string>
+    <string name="scan_no_impedance">Weight received, but no impedance yet — stay barefoot on the scale</string>
+
+    <!-- Result -->
+    <string name="result_title">Result</string>
+    <string name="result_measured">Measured on the scale</string>
+    <string name="result_calculated">Calculated</string>
+    <string name="result_subtitle">%1$s · %2$s · %3$s, %4$s, %5$s</string>
+    <string name="unit_cm">cm</string>
+    <plurals name="age_years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+    <string name="result_delete">Delete this measurement</string>
+    <string name="result_delete_title">Delete measurement?</string>
+    <string name="result_delete_message">%1$s · %2$s kg</string>
+    <string name="result_disclaimer">BIA estimates are not medical measurements. Trends matter more than a single reading.</string>
+    <string name="chips_fat">Fat %1$s%%</string>
+    <string name="chips_muscle">Muscle %1$s%%</string>
+    <string name="chips_water">Water %1$s%%</string>
+    <string name="chips_score">Score %1$d</string>
+
+    <!-- Calculator -->
+    <string name="calc_title">Calculator</string>
+    <string name="calc_subtitle">No scale needed. Impedance is optional — leave it empty for a BMI-based estimate.</string>
+    <string name="calc_weight">WEIGHT (KG)</string>
+    <string name="calc_height">HEIGHT (CM)</string>
+    <string name="calc_age">AGE</string>
+    <string name="calc_impedance">IMPEDANCE (OHM, OPTIONAL)</string>
+    <string name="calc_impedance_hint">e.g. 520</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="calc_button">Calculate</string>
+    <string name="calc_invalid">Enter a valid weight, height and age</string>
+    <string name="calc_saved">Saved to history</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_subtitle">Used for the algorithm and, on connectable scales, sent to the device.</string>
+    <string name="profile_height">HEIGHT (CM)</string>
+    <string name="profile_age">AGE</string>
+    <string name="profile_target">TARGET WEIGHT (KG)</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_forget">Forget saved scale</string>
+    <string name="profile_saved">Saved</string>
+    <string name="profile_cleared">Saved scale cleared</string>
+    <string name="profile_invalid">Check height and age</string>
+
+    <!-- Chart -->
+    <string name="chart_title">Chart</string>
+    <string name="chart_subtitle">Pick a parameter to plot your saved readings.</string>
+    <string name="chart_empty">No measurements yet</string>
+    <string name="chart_hint_empty">Save a reading from the scale or the calculator and it will show up here.</string>
+    <string name="chart_hint">%1$s · %2$s%3$s</string>
+    <string name="chart_range_hint">oldest on the left</string>
+    <string name="stats_min">Min</string>
+    <string name="stats_avg">Average</string>
+    <string name="stats_max">Max</string>
+    <string name="stats_change">Change</string>
+    <string name="stats_readings">Readings</string>
+    <plurals name="readings_count">
+        <item quantity="one">%d reading</item>
+        <item quantity="other">%d readings</item>
+    </plurals>
+
+    <!-- Metric names -->
+    <string name="metric_weight">Weight</string>
+    <string name="metric_fat">Body fat</string>
+    <string name="metric_fat_kg">Fat mass</string>
+    <string name="metric_muscle">Muscle</string>
+    <string name="metric_muscle_kg">Muscle mass</string>
+    <string name="metric_lean">Lean mass</string>
+    <string name="metric_water">Body water</string>
+    <string name="metric_visceral">Visceral fat</string>
+    <string name="metric_bmi">BMI</string>
+    <string name="metric_bmr">BMR</string>
+    <string name="metric_body_age">Body age</string>
+    <string name="metric_score">Body score</string>
+    <string name="metric_protein">Protein</string>
+
+    <!-- Result rows -->
+    <string name="section_body">BODY</string>
+    <string name="section_metabolism">METABOLISM</string>
+    <string name="section_targets">TARGETS</string>
+    <string name="row_bmi">BMI</string>
+    <string name="row_body_fat">Body fat</string>
+    <string name="row_fat_mass">Fat mass</string>
+    <string name="row_lean_mass">Lean mass</string>
+    <string name="row_muscle">Muscle</string>
+    <string name="row_muscle_mass">Muscle mass</string>
+    <string name="row_body_water">Body water</string>
+    <string name="row_water_mass">Water mass</string>
+    <string name="row_visceral">Visceral fat</string>
+    <string name="row_bone">Bone mass</string>
+    <string name="row_protein">Protein</string>
+    <string name="row_subcutaneous">Subcutaneous fat</string>
+    <string name="row_bcm">Body cell mass</string>
+    <string name="row_bmr">BMR</string>
+    <string name="row_body_age">Body age</string>
+    <string name="row_score">Body score</string>
+    <string name="row_score_value">%1$d / 100</string>
+    <string name="row_ideal">Ideal weight</string>
+    <string name="row_weight_control">Weight control</string>
+    <string name="row_fat_control">Fat control</string>
+    <string name="row_muscle_control">Muscle control</string>
+    <string name="row_obesity">Obesity degree</string>
+    <string name="row_impedance">Impedance</string>
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_years">y</string>
+    <string name="unit_ohm">Ω</string>
+
+    <!-- Verdicts -->
+    <string name="badge_normal">Normal</string>
+    <string name="badge_low">Low</string>
+    <string name="badge_high">High</string>
+    <string name="badge_very_high">Very high</string>
+    <string name="badge_underweight">Underweight</string>
+    <string name="badge_overweight">Overweight</string>
+    <string name="badge_obese">Obese</string>
+    <string name="badge_younger">Younger</string>
+    <string name="badge_older">Older</string>
+    <string name="badge_good">Good</string>
+</resources>

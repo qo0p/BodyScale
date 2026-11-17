@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BodyScale</string>
+    <string name="app_tagline">Состав тела — офлайн и без рекламы</string>
+
+    <!-- Home -->
+    <string name="home_latest">ПОСЛЕДНЕЕ ИЗМЕРЕНИЕ</string>
+    <string name="home_empty">Измерений пока нет. Подключите весы или используйте калькулятор.</string>
+    <string name="home_connect">Подключить весы</string>
+    <string name="home_calculator">Калькулятор</string>
+    <string name="home_chart">График</string>
+    <string name="home_profile">Профиль</string>
+    <string name="home_recent">НЕДАВНИЕ</string>
+    <string name="home_history_empty">Сохранённые измерения появятся здесь.</string>
+    <string name="history_row_fat">%1$s%% жира</string>
+    <string name="history_scale"> · весы</string>
+    <string name="history_calc"> · калькулятор</string>
+
+    <!-- Common -->
+    <string name="back">← Назад</string>
+    <string name="unit_kg">кг</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_delete">Удалить</string>
+
+    <!-- Scan -->
+    <string name="scan_title">Подключение весов</string>
+    <string name="scan_scanning">Поиск…</string>
+    <string name="scan_hint">Показываются только рекламные пакеты весов Chipsea/OKOK</string>
+    <string name="scan_step_hint">Встаньте на весы после подключения</string>
+    <string name="scan_bluetooth_unavailable">Bluetooth недоступен</string>
+    <string name="scan_bluetooth_off">Bluetooth выключен</string>
+    <string name="scan_scanner_unavailable">Сканер BLE недоступен</string>
+    <string name="scan_failed">Ошибка сканирования (%1$d)</string>
+    <string name="scan_connecting">Подключение…</string>
+    <string name="scan_connecting_to">Подключение к %1$s…</string>
+    <string name="scan_reconnecting">Переподключение…</string>
+    <string name="scan_connected">Подключено, поиск сервисов…</string>
+    <string name="scan_disconnected">Отключено</string>
+    <string name="scan_retrying">Связь потеряна, повтор…</string>
+    <string name="scan_waiting">Ожидание весов…</string>
+    <string name="scan_step_on">Встаньте на весы</string>
+    <string name="scan_no_service">У этого устройства нет поддерживаемого сервиса весов</string>
+    <string name="scan_write_failed">Ошибка записи: %1$s</string>
+    <string name="scan_subscribe_failed">Не удалось подписаться: %1$s</string>
+    <string name="scan_measuring">Измерение… стойте неподвижно</string>
+    <string name="scan_permission_required">Для поиска весов нужно разрешение Bluetooth</string>
+    <string name="scan_broadcast_only">Эти весы передают данные в эфир — просто встаньте на них босиком</string>
+    <string name="scan_scale_name">Весы Chipsea</string>
+    <string name="scan_unknown">Неизвестное устройство</string>
+    <string name="scan_saved"> · сохранено</string>
+    <string name="scan_frame">пакет весов v%1$d</string>
+    <string name="scan_encrypted">зашифровано</string>
+    <string name="scan_ready">готово</string>
+    <string name="scan_no_impedance">Вес получен, но импеданса пока нет — стойте на весах босиком</string>
+
+    <!-- Result -->
+    <string name="result_title">Результат</string>
+    <string name="result_measured">Измерено на весах</string>
+    <string name="result_calculated">Рассчитано</string>
+    <string name="result_subtitle">%1$s · %2$s · %3$s, %4$s, %5$s</string>
+    <string name="unit_cm">см</string>
+    <plurals name="age_years">
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+        <item quantity="other">%d года</item>
+    </plurals>
+    <string name="result_delete">Удалить это измерение</string>
+    <string name="result_delete_title">Удалить измерение?</string>
+    <string name="result_delete_message">%1$s · %2$s кг</string>
+    <string name="result_disclaimer">Оценки BIA не являются медицинскими измерениями. Важнее динамика, а не одно измерение.</string>
+    <string name="chips_fat">Жир %1$s%%</string>
+    <string name="chips_muscle">Мышцы %1$s%%</string>
+    <string name="chips_water">Вода %1$s%%</string>
+    <string name="chips_score">Балл %1$d</string>
+
+    <!-- Calculator -->
+    <string name="calc_title">Калькулятор</string>
+    <string name="calc_subtitle">Весы не нужны. Импеданс необязателен — без него расчёт по ИМТ.</string>
+    <string name="calc_weight">ВЕС (КГ)</string>
+    <string name="calc_height">РОСТ (СМ)</string>
+    <string name="calc_age">ВОЗРАСТ</string>
+    <string name="calc_impedance">ИМПЕДАНС (ОМ, НЕОБЯЗАТЕЛЬНО)</string>
+    <string name="calc_impedance_hint">напр. 520</string>
+    <string name="male">Мужчина</string>
+    <string name="female">Женщина</string>
+    <string name="calc_button">Рассчитать</string>
+    <string name="calc_invalid">Введите корректный вес, рост и возраст</string>
+    <string name="calc_saved">Сохранено в историю</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_subtitle">Используется алгоритмом и передаётся весам, если они поддерживают подключение.</string>
+    <string name="profile_height">РОСТ (СМ)</string>
+    <string name="profile_age">ВОЗРАСТ</string>
+    <string name="profile_target">ЦЕЛЕВОЙ ВЕС (КГ)</string>
+    <string name="profile_save">Сохранить</string>
+    <string name="profile_forget">Забыть сохранённые весы</string>
+    <string name="profile_saved">Сохранено</string>
+    <string name="profile_cleared">Сохранённые весы удалены</string>
+    <string name="profile_invalid">Проверьте рост и возраст</string>
+
+    <!-- Chart -->
+    <string name="chart_title">График</string>
+    <string name="chart_subtitle">Выберите параметр, чтобы построить график сохранённых измерений.</string>
+    <string name="chart_empty">Измерений пока нет</string>
+    <string name="chart_hint_empty">Сохраните измерение с весов или из калькулятора — оно появится здесь.</string>
+    <string name="chart_hint">%1$s · %2$s%3$s</string>
+    <string name="chart_range_hint">слева — старые</string>
+    <string name="stats_min">Мин</string>
+    <string name="stats_avg">Среднее</string>
+    <string name="stats_max">Макс</string>
+    <string name="stats_change">Изменение</string>
+    <string name="stats_readings">Измерений</string>
+    <plurals name="readings_count">
+        <item quantity="one">%d измерение</item>
+        <item quantity="few">%d измерения</item>
+        <item quantity="many">%d измерений</item>
+        <item quantity="other">%d измерения</item>
+    </plurals>
+
+    <!-- Metric names -->
+    <string name="metric_weight">Вес</string>
+    <string name="metric_fat">Процент жира</string>
+    <string name="metric_fat_kg">Масса жира</string>
+    <string name="metric_muscle">Мышцы</string>
+    <string name="metric_muscle_kg">Масса мышц</string>
+    <string name="metric_lean">Тощая масса</string>
+    <string name="metric_water">Вода</string>
+    <string name="metric_visceral">Висцеральный жир</string>
+    <string name="metric_bmi">ИМТ</string>
+    <string name="metric_bmr">Основной обмен</string>
+    <string name="metric_body_age">Возраст тела</string>
+    <string name="metric_score">Балл тела</string>
+    <string name="metric_protein">Белок</string>
+
+    <!-- Result rows -->
+    <string name="section_body">ТЕЛО</string>
+    <string name="section_metabolism">МЕТАБОЛИЗМ</string>
+    <string name="section_targets">ЦЕЛИ</string>
+    <string name="row_bmi">ИМТ</string>
+    <string name="row_body_fat">Процент жира</string>
+    <string name="row_fat_mass">Масса жира</string>
+    <string name="row_lean_mass">Тощая масса</string>
+    <string name="row_muscle">Мышцы</string>
+    <string name="row_muscle_mass">Масса мышц</string>
+    <string name="row_body_water">Вода</string>
+    <string name="row_water_mass">Масса воды</string>
+    <string name="row_visceral">Висцеральный жир</string>
+    <string name="row_bone">Масса костей</string>
+    <string name="row_protein">Белок</string>
+    <string name="row_subcutaneous">Подкожный жир</string>
+    <string name="row_bcm">Клеточная масса</string>
+    <string name="row_bmr">Основной обмен</string>
+    <string name="row_body_age">Возраст тела</string>
+    <string name="row_score">Балл тела</string>
+    <string name="row_score_value">%1$d / 100</string>
+    <string name="row_ideal">Идеальный вес</string>
+    <string name="row_weight_control">Контроль веса</string>
+    <string name="row_fat_control">Контроль жира</string>
+    <string name="row_muscle_control">Контроль мышц</string>
+    <string name="row_obesity">Степень ожирения</string>
+    <string name="row_impedance">Импеданс</string>
+    <string name="unit_kcal">ккал</string>
+    <string name="unit_years">лет</string>
+    <string name="unit_ohm">Ом</string>
+
+    <!-- Verdicts -->
+    <string name="badge_normal">Норма</string>
+    <string name="badge_low">Низкий</string>
+    <string name="badge_high">Высокий</string>
+    <string name="badge_very_high">Очень высокий</string>
+    <string name="badge_underweight">Недостаток веса</string>
+    <string name="badge_overweight">Избыток веса</string>
+    <string name="badge_obese">Ожирение</string>
+    <string name="badge_younger">Моложе</string>
+    <string name="badge_older">Старше</string>
+    <string name="badge_good">Хорошо</string>
+</resources>
